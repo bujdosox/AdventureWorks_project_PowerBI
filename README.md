@@ -41,10 +41,15 @@ o	Hiding all foreign keys from Report view prevent to use them for filtering
 -	Creating separate table for measures + create DAX calculations in order to use them anywhere in the report, referenced by other DAX measures and provide more complex calculations. Some of the measures:
 
 ![Total Cost](https://github.com/user-attachments/assets/85fdb6f5-6af9-458e-a623-cfb7d6db4a8c)
+
 ![Previous Month Revenue](https://github.com/user-attachments/assets/e5f1c7c5-aca8-4205-8779-5e2caaf5ebfb)
+
 ![10-day rolling revenue](https://github.com/user-attachments/assets/62aaa5e3-9e78-456b-b08c-984d5ae53aa1)
+
 ![90-day rolling profit](https://github.com/user-attachments/assets/88751816-24ff-4ff2-ab5d-78042917a024)
+
 ![YTD Revenue](https://github.com/user-attachments/assets/2eb531d0-c526-410a-a2e9-cbd10b729659)
+
 ![High Ticket Orders](https://github.com/user-attachments/assets/5333ae30-8ec3-4708-b5e1-3e96da9919e4)
 -	Beyond common visualization methods some practical solution was applied too.
 -	The Product detail page was set as Drilltrough page type. By choosing Drilltrough option on a product anywhere in the report Power BI automatically navigates user to the product detail page and display all calculations about the chosen product.
