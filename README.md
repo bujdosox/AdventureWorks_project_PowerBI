@@ -1,6 +1,7 @@
 ## AdventureWorks project
 ### Sales of fictive bike and bike accessory manufacturing company 
 The analysis can be the base of better understanding of the company operation and performance. Due to following the month over month values (Revenue, Orders, Returns) quick reactions, decisions and interventions can be made if necessary. The investigation also can be the starting point of increasing volume and market share. Analyzing previous period trends can help to draw conclusions for the future as well. Tracking most retruned products have to be developed areas can be detected.
+
 ![Riport 1](https://github.com/user-attachments/assets/a7516a3d-7cb3-4c6b-af40-f3324fd346b0)
 ![Riport 2](https://github.com/user-attachments/assets/ebea22e3-e29a-4fb1-b950-d2aad23e6063)
 ![Riport 3](https://github.com/user-attachments/assets/3b38abf4-c535-44ac-8b05-7958be95d775)
@@ -35,8 +36,10 @@ o	Connecting data/fact table (Sales, Returns) to dimension/lookup tables (Territ
 o	Organizing dimension tables above fact tables in order to vizualize filters flow from up to down
 o	Setting one-to-many cardinality and one-way filter dierctions
 o	Hiding all foreign keys from Report view prevent to use them for filtering
+
 ![Model](https://github.com/user-attachments/assets/df3b680b-950c-4e5f-9ab8-cd549e580996)
 -	Creating separate table for measures + create DAX calculations in order to use them anywhere in the report, referenced by other DAX measures and provide more complex calculations. Some of the measures:
+-	
 ![Total Cost](https://github.com/user-attachments/assets/85fdb6f5-6af9-458e-a623-cfb7d6db4a8c)
 ![Previous Month Revenue](https://github.com/user-attachments/assets/e5f1c7c5-aca8-4205-8779-5e2caaf5ebfb)
 ![10-day rolling revenue](https://github.com/user-attachments/assets/62aaa5e3-9e78-456b-b08c-984d5ae53aa1)
