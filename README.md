@@ -39,7 +39,7 @@ o	Hiding all foreign keys from Report view prevent to use them for filtering
 
 ![Model](https://github.com/user-attachments/assets/df3b680b-950c-4e5f-9ab8-cd549e580996)
 -	Creating separate table for measures + create DAX calculations in order to use them anywhere in the report, referenced by other DAX measures and provide more complex calculations. Some of the measures:
--	
+
 ![Total Cost](https://github.com/user-attachments/assets/85fdb6f5-6af9-458e-a623-cfb7d6db4a8c)
 ![Previous Month Revenue](https://github.com/user-attachments/assets/e5f1c7c5-aca8-4205-8779-5e2caaf5ebfb)
 ![10-day rolling revenue](https://github.com/user-attachments/assets/62aaa5e3-9e78-456b-b08c-984d5ae53aa1)
